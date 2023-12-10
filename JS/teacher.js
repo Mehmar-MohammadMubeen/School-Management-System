@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         name: newName,
         expertise: newExpertise,
         description: newDescription,
-      };
+      }; 
       data.push(newTeacher);
       localStorage.setItem("teachers", JSON.stringify(data));
       renderAllTeachers(data);
