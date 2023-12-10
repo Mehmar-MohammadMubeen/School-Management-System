@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                           </li>
                           <li class="nav-item">
                           <a class="nav-link active me-2" aria-current="page"
-                              href="../HTML/techer.html">Teachers</a>
+                              href="../HTML/teacher.html">Teachers</a>
                               <li class="nav-item">
                               <a class="nav-link active me-2" aria-current="page"
                                   href="../Html-files/students.html">Students</a>
