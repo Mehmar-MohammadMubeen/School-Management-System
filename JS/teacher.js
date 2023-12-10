@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="./Class.html" class="card-link" style="text-decoration: none; color: blue;">Classes</a>
           </div>
           </div>
-          
         `;
+        parentElement.appendChild(card);
       }
 });
