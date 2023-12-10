@@ -18,4 +18,17 @@ document.addEventListener("DOMContentLoaded", function () {
       localStorage.setItem("teachers", JSON.stringify(data));
       renderAllTeachers(data);
     });
+    function renderAllTeachers(teachers) {
+        let teacherContainer = document.getElementById("teacher-container");
+        teacherContainer.innerHTML = "";
+        for (let i = 0; i < teachers.length; i += 3) {
+          let row = document.createElement("div");
+          row.classList.add("row", "gx-6", "justify-content-center");
+          for (let j = i; j < i + 3 && j < teachers.length; j++) {
+            let teacher = teachers[j];
+            renderTeacherCard(teacher, row);
+          }
+          teacherContainer.appendChild(row);
+        }
+      }
 });
