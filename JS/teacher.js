@@ -59,5 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
         `;
         parentElement.appendChild(card);
+    let editButton = card.querySelector(".edit-button");
+    let deleteButton = card.querySelector(".delete-button");
+
       }
 });
