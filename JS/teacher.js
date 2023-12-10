@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       
     deleteButton.addEventListener("click", function () {
-        if (confirm("Are you sure you want to delete this teacher?")) {
+        if (confirm("Are you sure you want to delete this teacher?")) { 
           let index = data.indexOf(teacher);
           if (index !== -1) {
             data.splice(index, 1);
