@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (index !== -1) {
             data.splice(index, 1);
             localStorage.setItem("teachers", JSON.stringify(data));
-            renderAllTeachers(data);
+            renderAllTeachers(data); 
           }
         }
       });
