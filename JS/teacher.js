@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         expertise: newExpertise,
         description: newDescription,
       }; 
-      data.push(newTeacher);
+      data.push(newTeacher); 
       localStorage.setItem("teachers", JSON.stringify(data));
       renderAllTeachers(data);
     });
