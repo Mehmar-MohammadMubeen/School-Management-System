@@ -61,6 +61,16 @@ document.addEventListener("DOMContentLoaded", function () {
         parentElement.appendChild(card);
     let editButton = card.querySelector(".edit-button");
     let deleteButton = card.querySelector(".delete-button");
+    editButton.addEventListener("click", function () {
+        let newName = prompt("Enter the updated name:");
+        let newExpertise = prompt("Enter the updated expertise:");
+        let newDescription = prompt("Enter the updated description:");
+        teacher.name = newName || teacher.name;
+        teacher.expertise = newExpertise || teacher.expertise;
+        teacher.description = newDescription || teacher.description;
+        localStorage.setItem("teachers", JSON.stringify(data));
+        renderAllTeachers(data);
+      });
 
       }
 });
