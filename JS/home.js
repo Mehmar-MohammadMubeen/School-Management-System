@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
                   <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
                           <li class="nav-item">
-                              <a class="nav-link active me-2" aria-current="page" href="../Html-files/home.html">Home</a>
+                              <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item">
                           <a class="nav-link active me-2" aria-current="page"
-                              href="../Html-files/techer.html">Teachers</a>
+                              href="../HTML/techer.html">Teachers</a>
                               <li class="nav-item">
                               <a class="nav-link active me-2" aria-current="page"
                                   href="../Html-files/students.html">Students</a>
