@@ -20,3 +20,4 @@ function getNoteFromAverage(averageGrade) {
       return "Needs improvement.";
     }
   }
+  export { calculateAverage, getNoteFromAverage };
