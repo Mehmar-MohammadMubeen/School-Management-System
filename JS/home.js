@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                   href="../HTML/student.html">Students</a>
                       </li>
                           <li class="nav-item">
-                              <a class="nav-link active me-2" aria-current="page" href="../../HTML/class.html">Classes</a>
+                              <a class="nav-link active me-2" aria-current="page" href="../HTML/class.html">Classes</a>
                           </li>
                           
                           </div>
