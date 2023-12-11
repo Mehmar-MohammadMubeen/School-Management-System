@@ -1,3 +1,4 @@
+import { calculateAverage, getNoteFromAverage } from "./studentData.js";
 document.addEventListener("DOMContentLoaded", function () {
     let emptyStorage = [];
     let data = JSON.parse(localStorage.getItem("students")) || emptyStorage;
